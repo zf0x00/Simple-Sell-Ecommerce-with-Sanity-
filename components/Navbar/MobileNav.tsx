@@ -1,7 +1,7 @@
-import { Box, Flex, Stack, Text } from '@chakra-ui/react'
+import { Box, Flex, HStack, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import AppLogo from './AppLogo'
-import { MobileNavStyles, MobileSearchStyles } from './styles'
+import { MobileNavStyles, MobileSearchStyles } from '../styles/styles'
 import Search from '../Search/Search'
 
 export default function MobileNav() {
@@ -12,10 +12,10 @@ export default function MobileNav() {
         Nav Menu
         </Box>
         <AppLogo/>
-        <Stack spacing={1}>
+        <HStack spacing={1}>
             <Text>Wlist</Text>
             <Text>Cart</Text>
-        </Stack>
+        </HStack>
     </Flex>
     <Box {...MobileSearchStyles}>
         <Search/>

@@ -1,6 +1,6 @@
 import { Box, Input, InputGroup, InputLeftElement } from "@chakra-ui/react"
 import { SearchIcon } from '@chakra-ui/icons'
-import { SearchInputStyles } from "../Navbar/styles"
+import { SearchInputStyles } from "../styles/styles"
 
 export default function Search() {
   return (

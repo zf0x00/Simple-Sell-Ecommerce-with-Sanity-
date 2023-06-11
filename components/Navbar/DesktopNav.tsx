@@ -4,9 +4,9 @@ import {
   cartsectionStyles,
   desktopnavStyles,
   logosectionStyles,
-} from "./styles";
+} from "../styles/styles";
 import AppLogo from "./AppLogo";
-import { navItems } from "@/app/utils/helpers";
+import { navItems } from "@/utils/helpers";
 import Link from "next/link";
 import Search from "../Search/Search";
 

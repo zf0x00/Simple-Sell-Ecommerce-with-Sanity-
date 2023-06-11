@@ -42,7 +42,7 @@ export const SearchInputStyles: InputProps = {
 };
 
 export const MobileNavStyles: FlexProps = {
-  justify: "center",
+  justify: "space-between",
   align: "center",
   px: "2rem",
   py: "1rem",
@@ -57,7 +57,10 @@ export const MobileSearchStyles: FlexProps = {
   px: "2rem",
   py: "1rem",
   mb: "1px",
+  w:'100%',
+  justify:'center',
+  alignItems:'center',
   borderColor: "gray.400",
-  display:{base: 'flex', lg:'none'},
+  display:{base: 'block', lg:'none'},
 
 };
